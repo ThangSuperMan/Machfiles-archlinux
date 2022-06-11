@@ -99,6 +99,8 @@ selection:
   save_to_clipboard: false
   live_config_reload: true
 
-# key_bindings:
+key_bindings:
+  - { key: V, mods: Control, action: Paste }
+  - { key: C, mods: Control, action: Copy }
 #   - { key: N, mods: Super|Shift, action: alacritty --working-directory (pwd) }
 
